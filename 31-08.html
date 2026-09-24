@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="31-08style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Student Portal</h1>
+        <p class="highlight">This is our lab assingnment</p>
+        <nav>
+            <ul>
+                <li><a href="home">home</a></li>
+                <li><a href="profile">profile</a></li>
+                <li><a href="Courses">Courses</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Student Profile</h2>
+        <p id="special">This is student profile</p>
+
+        <table border="2">
+            <tr align="center">
+                <th>Field</th>
+                <th>Value</th>
+            </tr>
+            <tr align="center">
+                <td>Name</td>
+                <td>Soham kadam</td>
+            </tr>
+            <tr align="center">
+                <td>Student ID</td>
+                <td>26BCS10714</td>
+            </tr>
+            <tr align="center">
+                <td>Program</td>
+                <td>Computer Science</td>
+            </tr>
+            <tr align="center">
+                <td>Year</td>
+                <td>1st Year</td>
+            </tr>
+            <tr align="center">
+                <td>Email</td>
+                <td>soham@example.com</td>
+            </tr>
+        </table>
+
+        <section>
+            <h2>My Skills</h2>
+
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>Git</li>
+            </ul>
+
+        </section>
+        <section>
+            <h2>Weekly Schedule</h2>
+
+            <table border="2">
+                <tr align="center">
+                    <th>Day</th>
+                    <th>9:00 AM</th>
+                    <th>11:00 AM</th>
+                    <th>2:00 PM</th>
+                </tr>
+                <tr align="center">
+                    <td>Monday</td>
+                    <td>HTML</td>
+                    <td>Mathematics</td>
+                    <td>DSA</td>
+                </tr>
+                <tr align="center">
+                    <td>Tuesday</td>
+                    <td>CSS</td>
+                    <td>DBMS</td>
+                    <td>English</td>
+                </tr>
+                <tr align="center">
+                    <td>Wednesday</td>
+                    <td>JavaScript</td>
+                    <td>DSA</td>
+                    <td>Mathematics</td>
+                </tr>
+                <tr align="center">
+                    <td>Thursday</td>
+                    <td>DBMS</td>
+                    <td>HTML</td>
+                    <td>Project</td>
+                </tr>
+                <tr align="center">
+                    <td>Friday</td>
+                    <td>DSA</td>
+                    <td>CSS</td>
+                    <td>Workshop</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Course Registration</h2>
+
+            <form>
+
+                <label for="name">name</label>
+                <input type="text" id="name" placeholder="name">
+
+                <label for="email">email</label>
+                <input type="text" id="email" placeholder="email"><br>
+
+                <label for="Student ID">student ID</label>
+                <input type="text" id="Student ID" placeholder="Student ID"><br>
+
+                <label for="select">Select Course:</label>
+
+                <select name="select" id="select">
+                    <option value="HTML & CSS">HTML & CSS</option>
+                    <option value="JavaScript">JavaScript</option>
+                    <option value="Python">Python</option>
+                    <option value="Data Structures">Data Structures</option>
+                    <option value="Database Management">Database Management</option>
+                </select>
+
+                <br>
+
+                <label for="online">online</label>
+                <input type="radio" id="online" name="mode">
+                <label for="offline">offline</label>
+                <input type="radio" id="offline" name="mode"><br>
+
+                <label for="HTML">HTML</label>
+                <input type="checkbox" id="HTML">
+                <label for="CSS">CSS</label>
+                <input type="checkbox" id="HTML">
+                <label for="JavaScript">JavaScript</label>
+                <input type="checkbox" id="HTML">
+                <label for="Python">Python</label>
+                <input type="checkbox" id="HTML"><br>
+
+                <button type="submit">submit</button>
+                <button type="reset">reset</button>
+
+            </form>
+        </section>
+    </main>
+
+</body>
+
+</html>
+
